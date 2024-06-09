@@ -1,0 +1,956 @@
+{
+	"meta": {
+		"format": "animated_java/ajmodel",
+		"format_version": "0.4.8",
+		"uuid": "2eb14a5e-37dc-80fb-d1a1-00a219529218"
+	},
+	"animated_java": {
+		"settings": {
+			"project_namespace": "outfit",
+			"project_resolution": [16, 16],
+			"target_minecraft_version": "1.20+",
+			"rig_item": "minecraft:bone",
+			"rig_item_model": "",
+			"rig_export_folder": "",
+			"texture_export_folder": "",
+			"enable_advanced_resource_pack_settings": false,
+			"resource_pack_mcmeta": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\pack.mcmeta",
+			"verbose": true,
+			"exporter": "animated_java:datapack_exporter"
+		},
+		"exporter_settings": {
+			"animated_java:datapack_exporter": {
+				"datapack_mcmeta": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\saves\\eras-tour-world\\datapacks\\Eras Tour Datapack\\pack.mcmeta",
+				"outdated_rig_warning": true,
+				"root_entity_nbt": "{}",
+				"use_component_system": false,
+				"include_variant_summon_functions": true,
+				"include_apply_variant_functions": true,
+				"include_uninstall_function": true,
+				"include_pause_all_animations_function": true,
+				"include_remove_rigs_function": true,
+				"include_remove_all_function": true,
+				"include_on_load_function_tags": true,
+				"include_on_tick_function_tags": true,
+				"include_on_summon_function_tags": true,
+				"include_on_remove_function_tags": true
+			},
+			"animated_java:json_exporter": {
+				"output_file": ""
+			}
+		},
+		"variants": [
+			{
+				"name": "sunset",
+				"textureMap": {},
+				"uuid": "8222925a-386b-6e44-e5ca-d803b137f9a9",
+				"boneConfig": {},
+				"default": true,
+				"affectedBonesIsAWhitelist": false,
+				"affectedBones": []
+			},
+			{
+				"name": "blue",
+				"textureMap": {
+					"03921292-9967-4852-a92b-e2967d4dcbd5": "ce6a294d-0f0c-5b8c-06ab-02974cc1091e",
+					"acde4ceb-d2b2-76a2-f690-624a6bad4900": "ce6a294d-0f0c-5b8c-06ab-02974cc1091e",
+					"bc66c9e5-a48e-9605-1589-75b60033e4fb": "9e499e6a-0b0a-9045-ea5d-788f46f9e624"
+				},
+				"uuid": "16e17894-8c06-cea2-e940-32f6c725ffed",
+				"boneConfig": {},
+				"affectedBonesIsAWhitelist": false,
+				"affectedBones": []
+			},
+			{
+				"name": "golden",
+				"textureMap": {
+					"03921292-9967-4852-a92b-e2967d4dcbd5": "3160b2e8-4b3b-b13f-f712-5c43d76471e5",
+					"acde4ceb-d2b2-76a2-f690-624a6bad4900": "a9b1513b-8490-3b27-2fa9-4fd2805e3c9b"
+				},
+				"uuid": "f3ad8447-c53a-969e-2d90-f70c28f5b625",
+				"boneConfig": {},
+				"affectedBonesIsAWhitelist": false,
+				"affectedBones": []
+			},
+			{
+				"name": "green",
+				"textureMap": {
+					"03921292-9967-4852-a92b-e2967d4dcbd5": "0704bb9d-ea75-c63d-42d3-11c033a8303d",
+					"acde4ceb-d2b2-76a2-f690-624a6bad4900": "0704bb9d-ea75-c63d-42d3-11c033a8303d",
+					"bc66c9e5-a48e-9605-1589-75b60033e4fb": "79e7caf1-f7ca-ad1d-7984-46d97536a7bb"
+				},
+				"uuid": "a5e36acc-e916-8183-9e29-19c73045ede7",
+				"boneConfig": {},
+				"affectedBonesIsAWhitelist": false,
+				"affectedBones": []
+			},
+			{
+				"name": "heart",
+				"textureMap": {
+					"03921292-9967-4852-a92b-e2967d4dcbd5": "e7b4d921-7cd6-f14d-8139-23abd372a8f8"
+				},
+				"uuid": "7b0bd218-ddec-bc49-5587-9d9c27928b22",
+				"boneConfig": {},
+				"affectedBonesIsAWhitelist": false,
+				"affectedBones": []
+			},
+			{
+				"name": "orange",
+				"textureMap": {
+					"03921292-9967-4852-a92b-e2967d4dcbd5": "f2d2f491-f8be-f14f-23da-19a8c38c3891",
+					"acde4ceb-d2b2-76a2-f690-624a6bad4900": "f2d2f491-f8be-f14f-23da-19a8c38c3891",
+					"bc66c9e5-a48e-9605-1589-75b60033e4fb": "5af647be-b27d-b75b-54bf-98eae9b20615"
+				},
+				"uuid": "53a0c7d5-815e-5e90-4690-ec2c27c3eb2f",
+				"boneConfig": {},
+				"affectedBonesIsAWhitelist": false,
+				"affectedBones": []
+			},
+			{
+				"name": "pink",
+				"textureMap": {
+					"03921292-9967-4852-a92b-e2967d4dcbd5": "6453570c-a56d-fe59-03ac-1d443b601141",
+					"acde4ceb-d2b2-76a2-f690-624a6bad4900": "6453570c-a56d-fe59-03ac-1d443b601141",
+					"bc66c9e5-a48e-9605-1589-75b60033e4fb": "5581bfd5-5181-49ad-3ade-512e78b40c12"
+				},
+				"uuid": "4568f35a-4f80-3fdf-0f4c-f9fe3a5d0ae5",
+				"boneConfig": {},
+				"affectedBonesIsAWhitelist": false,
+				"affectedBones": []
+			},
+			{
+				"name": "sun_rise",
+				"textureMap": {
+					"03921292-9967-4852-a92b-e2967d4dcbd5": "6c4f4989-fa6e-f342-46d6-dc982b19b35b",
+					"acde4ceb-d2b2-76a2-f690-624a6bad4900": "546c729f-2fc4-9aae-d84a-78cae1fd1335",
+					"3160b2e8-4b3b-b13f-f712-5c43d76471e5": "3160b2e8-4b3b-b13f-f712-5c43d76471e5",
+					"e7b4d921-7cd6-f14d-8139-23abd372a8f8": "e7b4d921-7cd6-f14d-8139-23abd372a8f8",
+					"a634b6b0-21be-fdc5-a4cc-4776f06df9ab": "a634b6b0-21be-fdc5-a4cc-4776f06df9ab",
+					"a9b1513b-8490-3b27-2fa9-4fd2805e3c9b": "a9b1513b-8490-3b27-2fa9-4fd2805e3c9b",
+					"bc66c9e5-a48e-9605-1589-75b60033e4fb": "bc66c9e5-a48e-9605-1589-75b60033e4fb",
+					"ce6a294d-0f0c-5b8c-06ab-02974cc1091e": "ce6a294d-0f0c-5b8c-06ab-02974cc1091e",
+					"9e499e6a-0b0a-9045-ea5d-788f46f9e624": "9e499e6a-0b0a-9045-ea5d-788f46f9e624",
+					"0704bb9d-ea75-c63d-42d3-11c033a8303d": "0704bb9d-ea75-c63d-42d3-11c033a8303d",
+					"79e7caf1-f7ca-ad1d-7984-46d97536a7bb": "79e7caf1-f7ca-ad1d-7984-46d97536a7bb",
+					"f2d2f491-f8be-f14f-23da-19a8c38c3891": "f2d2f491-f8be-f14f-23da-19a8c38c3891",
+					"5af647be-b27d-b75b-54bf-98eae9b20615": "5af647be-b27d-b75b-54bf-98eae9b20615",
+					"6453570c-a56d-fe59-03ac-1d443b601141": "6453570c-a56d-fe59-03ac-1d443b601141",
+					"5581bfd5-5181-49ad-3ade-512e78b40c12": "5581bfd5-5181-49ad-3ade-512e78b40c12",
+					"546c729f-2fc4-9aae-d84a-78cae1fd1335": "546c729f-2fc4-9aae-d84a-78cae1fd1335",
+					"6c4f4989-fa6e-f342-46d6-dc982b19b35b": "6c4f4989-fa6e-f342-46d6-dc982b19b35b"
+				},
+				"uuid": "c25f726c-da01-cdf5-be51-d352c1438875",
+				"boneConfig": {},
+				"affectedBonesIsAWhitelist": false,
+				"affectedBones": []
+			},
+			{
+				"name": "violet",
+				"textureMap": {
+					"03921292-9967-4852-a92b-e2967d4dcbd5": "a634b6b0-21be-fdc5-a4cc-4776f06df9ab"
+				},
+				"uuid": "feb1a388-6eb3-0b42-621b-c174459731d0",
+				"boneConfig": {},
+				"affectedBonesIsAWhitelist": false,
+				"affectedBones": []
+			}
+		]
+	},
+	"resolution": {
+		"width": 16,
+		"height": 16
+	},
+	"elements": [
+		{
+			"name": "chest",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-4, 7, -1],
+			"to": [4, 19, 3],
+			"autouv": 0,
+			"color": 3,
+			"inflate": 0.75,
+			"origin": [0, 0, 0],
+			"uv_offset": [16, 16],
+			"faces": {
+				"north": {
+					"uv": [5, 10, 7, 16],
+					"texture": 2
+				},
+				"east": {
+					"uv": [7, 10, 8, 16],
+					"texture": 2
+				},
+				"south": {
+					"uv": [8, 10, 10, 16],
+					"texture": 2
+				},
+				"west": {
+					"uv": [4, 10, 5, 16],
+					"texture": 2
+				},
+				"up": {
+					"uv": [7, 10, 5, 8],
+					"texture": 2
+				},
+				"down": {
+					"uv": [9, 10, 7, 8],
+					"texture": 2
+				}
+			},
+			"type": "cube",
+			"uuid": "a8df61be-1c33-b805-62c5-c45c2e02ee61"
+		},
+		{
+			"name": "left",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-3.9, -3, -1],
+			"to": [0.1, 9, 3],
+			"autouv": 0,
+			"color": 7,
+			"mirror_uv": true,
+			"inflate": 0.75,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [2, 10, 1, 16],
+					"texture": 4
+				},
+				"east": {
+					"uv": [2, 10, 3, 16],
+					"texture": 4
+				},
+				"south": {
+					"uv": [4, 10, 3, 16],
+					"texture": 4
+				},
+				"west": {
+					"uv": [1, 10, 0, 16],
+					"texture": 4
+				},
+				"up": {
+					"uv": [2, 8, 1, 10],
+					"texture": 4
+				},
+				"down": {
+					"uv": [3, 8, 2, 10],
+					"texture": 4
+				}
+			},
+			"type": "cube",
+			"uuid": "abfec9a5-fd4f-8f58-f6e2-e0e7714e2210"
+		},
+		{
+			"name": "right",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [0.1, -3, -1],
+			"to": [4.1, 9, 3],
+			"autouv": 0,
+			"color": 7,
+			"mirror_uv": true,
+			"inflate": 0.75,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [2, 10, 1, 16],
+					"texture": 4
+				},
+				"east": {
+					"uv": [2, 10, 3, 16],
+					"texture": 4
+				},
+				"south": {
+					"uv": [4, 10, 3, 16],
+					"texture": 4
+				},
+				"west": {
+					"uv": [1, 10, 0, 16],
+					"texture": 4
+				},
+				"up": {
+					"uv": [2, 8, 1, 10],
+					"texture": 4
+				},
+				"down": {
+					"uv": [3, 8, 2, 10],
+					"texture": 4
+				}
+			},
+			"type": "cube",
+			"uuid": "df37bb92-0f8b-bf81-507f-de235ea7cb52"
+		},
+		{
+			"name": "waist",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-4, 5, -1],
+			"to": [4, 17, 3],
+			"autouv": 0,
+			"color": 9,
+			"inflate": 0.5,
+			"origin": [0, 7, 0],
+			"uv_offset": [16, 16],
+			"faces": {
+				"north": {
+					"uv": [5, 10, 7, 16],
+					"texture": 6
+				},
+				"east": {
+					"uv": [7, 10, 8, 16],
+					"texture": 6
+				},
+				"south": {
+					"uv": [8, 10, 10, 16],
+					"texture": 6
+				},
+				"west": {
+					"uv": [4, 10, 5, 16],
+					"texture": 6
+				},
+				"up": {
+					"uv": [0, 0, 0, 0],
+					"texture": 6
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": 6
+				}
+			},
+			"type": "cube",
+			"uuid": "f70d1fd0-84d6-ffe1-3691-70a2b18c1962"
+		}
+	],
+	"outliner": [
+		{
+			"name": "outfit",
+			"origin": [0, 17, 1],
+			"color": 0,
+			"nbt": "{}",
+			"uuid": "7c7f626f-3140-cd64-e59b-0c4f3373dd7b",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"children": [
+				"a8df61be-1c33-b805-62c5-c45c2e02ee61",
+				{
+					"name": "waist",
+					"origin": [0, 31, 0],
+					"color": 0,
+					"nbt": "{}",
+					"uuid": "7ee6c5c3-1684-6ac0-f02d-b7b399a88c0a",
+					"export": true,
+					"mirror_uv": false,
+					"isOpen": false,
+					"locked": false,
+					"visibility": true,
+					"autouv": 0,
+					"children": ["f70d1fd0-84d6-ffe1-3691-70a2b18c1962"]
+				},
+				{
+					"name": "shoes",
+					"origin": [-1.9, 12, 0],
+					"color": 0,
+					"nbt": "{}",
+					"uuid": "481b4b0e-9c51-6c83-f576-159b65bb61a5",
+					"export": true,
+					"mirror_uv": true,
+					"isOpen": true,
+					"locked": false,
+					"visibility": true,
+					"autouv": 0,
+					"children": ["abfec9a5-fd4f-8f58-f6e2-e0e7714e2210", "df37bb92-0f8b-bf81-507f-de235ea7cb52"]
+				}
+			]
+		}
+	],
+	"textures": [
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\lover\\golden_layer_1.png",
+			"name": "golden_layer_1",
+			"folder": "",
+			"namespace": "",
+			"id": "0",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "3160b2e8-4b3b-b13f-f712-5c43d76471e5",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/lover/golden_layer_1.png",
+			"source": "data:image/png;base64,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",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\lover\\heart_layer_1.png",
+			"name": "heart_layer_1",
+			"folder": "",
+			"namespace": "",
+			"id": "1",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "e7b4d921-7cd6-f14d-8139-23abd372a8f8",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/lover/heart_layer_1.png",
+			"source": "data:image/png;base64,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",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\lover\\sunset_layer_1.png",
+			"name": "sunset_layer_1",
+			"folder": "",
+			"namespace": "",
+			"id": "2",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "03921292-9967-4852-a92b-e2967d4dcbd5",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/lover/sunset_layer_1.png",
+			"source": "data:image/png;base64,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",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\lover\\violet_layer_1.png",
+			"name": "violet_layer_1",
+			"folder": "",
+			"namespace": "",
+			"id": "3",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "a634b6b0-21be-fdc5-a4cc-4776f06df9ab",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/lover/violet_layer_1.png",
+			"source": "data:image/png;base64,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",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\lover\\grey_boots_layer_1.png",
+			"name": "grey_boots_layer_1",
+			"folder": "textures/block/outfits/lover",
+			"namespace": "minecraft",
+			"id": "4",
+			"width": 128,
+			"height": 64,
+			"uv_width": 64,
+			"uv_height": 32,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "acde4ceb-d2b2-76a2-f690-624a6bad4900",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/lover/grey_boots_layer_1.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAA8ZJREFUeF7tW21LFFEUPrOSzrouKvtBnUyXstQwCVtdKQ0l1Ap6g/rUn/Gv9APqWx+spCSzJNQKSyLfVkNTUBPX19WduMIOw3KNgcty1zmPHy/37JnnZc9c7zlrEP5YM2CwRg/wBAMwNwEMAAMwZ4A5fFQAGIA5A8zhowLAAMwZYA4fFQAGYM4Ac/ioADAAcwaYw0cFgAGYM8AcPioADMCcAebwUQFgAOYMMIePCgADMGeAOXxUABiAOQPM4aMCwADMGWAOHxUABmDOAHP4qAAwAHMGmMNHBYABmDPAHD4qAAygxsDK2IS9VVZF24kE7W2s0qFZRMEyi1LTK1TZGKLatnaYTI3inEYrizMy/NFeHv9FNVYJFYVLKV0cpoorzbQ3u0QHG9NUf6tXOUdOGWD+4crirO2k7MlXk9RwjkhWCVpuNCnnYK5RTuEri5M+TNnvB6boTOk2ySpBVZmpnCOnDDD/cGVx3g5/s83f+3Tp/lUSlcDcXD9+9+8GTdpc2qK23o6AYRg2c57zFr6yAUanEnb6xyLFH8RJVIKaqpLjd/9RuIKSa6vUdqdHOUfesueDB1MWZ/TZoC2+8bMHxSQqQcvDZhp7+Y6i12P088Nn6n58WzmHD3jOWwjK4syNz9riG//XqidRCQqTS1TXdY1KrGoa/zpDrbHLyjnylj0fPBjE8YGIKhBgABX2fBALA/hARBUIMIAKez6IhQF8IKIKBBhAhT0fxMIAPhBRBQIMoMKeD2I9G2Dk+YCdud2jSou6O5o9xwqesuOH3rwo6O/vT/uAw1MNwZOIJw19eG31qsafaobz/OGNk8Q5a6ac/v52YVra6l0YfO1MALn3uyeDxPrM7p40fvn7NHk1UZ7zeGofzzhpomducsIR7fzde9JWb5AOnAkg9373ZJBYr2+JSeNr4q2EeQG93jEyEz3Zffy6znZHtNanN6Wt3opI2On7u/e75wHEenkhSePtgEnxvk5PryG9NPk3u5GZ6Mnu48d6uhzR5neS0lavVR5w+v7u/e55ALE+9GlKGh8KFWBeQLO3jMxET3YfX5z0M/39L3N/pK3eVGLR6fu797vnAcR6caRUGp+cX8C8gG4DZCZ6svv46VDIES365JH0Hd7QYDl9f/d+9zyAWK+rtaTxgUgE8wK6DYAzgGYFNKfHGUCzALrT4wygWwHN+Q0vZ4DqpovSH31cqA56OgNEd9al8UdFAZwBdBsAN4GaFdCcHjeBmgXQnR43gboV0Jzf038B2Td7sl8A/e8mUOzv7GvEL4c0iy1L/w9lF11upVculgAAAABJRU5ErkJggg==",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\lover\\golden_boots_layer_1.png",
+			"name": "golden_boots_layer_1",
+			"folder": "",
+			"namespace": "",
+			"id": "5",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "a9b1513b-8490-3b27-2fa9-4fd2805e3c9b",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/lover/golden_boots_layer_1.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAByBJREFUeF7tXelvVUUU/81d3+tOKVDoQmlppbSAtNG4YRSNRkVwiUtcgwnun/1gYvzkX2EMiRoVjWiiuKMRJUQDCFq70RZKKc/X0n15fXeZ0TnPj8+kyc31pZlp0jR5754zc87vd8+cc2YmZdA/SnuAKW29Nh6aAIqTQBNAE0BxDyhuvo4AmgCKe0Bx83UE0ARQ3AOKm68jgCaA4h5Q3HwdATQBFPeA4ubrCKAJoLgHFDdfRwBNAMU9oLj5OgJoAijuAcXN1xFAE0BxDyhuvo4AmgCKe0Bx83UE0ARQ3AOKm68jgCaA4h5Q3HwdATQBFPeA4ubrCKAJoLgHFDdfRwBNgGgeCFInBawE+OwI+MwFwErCLG9AkDoJc+02OI13apJFc3Gs0pHByfYeFmHqV5hVWwFmgCVWwaq5DmH6LPj8ZbjtT0QeI1YPKK48Mjg8Myn8c5/BWL0FzE6Cz1wEn7sEEWZhFK+Du/XRyGMojlGs5kcGR/BAeL0fg5ku/OEfYKxqhJGoBBiDVX8LzLLayGPE6gHFlUcGJ9vzoeDzKbjtT8Lr+QjCm4W57mog9CgvSHQ8H3kMxTGK1fzI4Hjnjwo+0QO343l4f74HVrweYmkSzC4CnxvVBIgVvujKIxMgc/wNYdXcAL44Bj57EW7HC8ieeRPO5j3wuj9A8qbXIo8R3Uyt4b88EBkc7/y3QmTnwJwS8IleiCADu3kfzIpN8M9/C6d5T+QxNHzxeUCDE59vV4RmTYAVAVN8k9QEiM+3K0KzJsCKgCm+SWoCxOfbFaFZE2BFwBTfJDUB4vPtitCsCbAiYIpvkssmgDdwRJhVbfCHv6f9frth97Jl5fSjysfnArU1LwvEIHVKsKIq8JlhCG8O4AHt/5uVzf+LvNoQxWs9C2eGhWzjhhP9OXCZSfv6LFkFhFlAcDC7GP7FH2GU1VHLlwiwdjv1+s11O2DIDaDQoy1hvpCCWByjk0EIlug5hH5e+WDkJzjN9y6LRPG6QV3tzDv3uQjSpyE3dBBkYJTWwqjYhDD9G7y+w7BqrofddA/C9GmEU0Ow6m4CuA8+dxkiMwGWrIS1rgPhZD/8C0dhb7wVMEwijrGqCWHqFKy6XXnl5ZExs2S9JkAB+cd4dk74fYchRAizsoWmIoG16m6G1/0+ZOh3Wh6AP3gErGgtxNIUmFuGcGqA3nyjeA3C8W7YzXvgD34B4c3nzgN480QKp+1xMCuZV15GCH1eoIDoA2AiDIQ/9CWM0jraxxc8pCNdbvsTtL9vrmkDz0xAeAuwm+6C1/UO7IbbKToY5fW58J+5Arv5XvhD3xA5+EKaQJfnAdzt++EPH80rz9xyJHYe0BGggBxgXt+ngs+Pwtm+H97Zt2A33U3rNR3omB2B2/kSwsu/IJwapBxBLgdmRQNt9YZXuuFseQhe/ycwyzeBz42QHr//U1o6vO5DlCyyRHl++fRZJG98VROgkATwR46LcOwMjJINFLrlX3/kGACD8gD5ljpbHkRw+Vc68GFUNIEZJgFq1d6Y2/eXZwGLqyH18MwknOa9lDD6Q1+DJVfDrGrNK28UrYHTslcToJAE4EvTQr6xQgiY5RupChDZGUr25Bss/6+Yu+MAre/yTRZLMwRqONkHo7QGzCqi+wB28154fR8D/iLMDddCZGfBp4fgtD4MZpfklZfVRGLns5oAhSSAzAFkCDfKasFnR2EkK6mksxtuQ/b3g5DNH5kUyjxAgun1HILdKHOBt3MEKK6GWBzPLQXd78FYtZmqBCKAPCJ29XMEfj55WVImOl/SBCgkAbLdh4TM7J1tT8E7e5CSOXnMW4ZnmRu4nS8jTJ1EONFDJ33tzXsIeH/oK4QTvQS8P/A5WGkNxPxfcHbIXOIg7MY7kJVJ5OotueUhj3yQPoOiXa9rAhSSAP7FY0KWazLW2/U3wyirh3/hO7rlE479AeaWwlx/DTWDwvEuqv+ZaVP9b67dAbOikXIG+j59hspAu2UfjLKNCIa+oudgF+WVZ2YCzlX3aQIUlACXTgiZ8cuMnjp4pks3euQ6z5xSquVlSJddO7OqPQeoYVECKO8ByK4hPS9/SU8v6RE8oERQNpb49GBe+WD0BNzWhzQBCkmAbNe7Irh0Amb1TqrdAQFr424EF76j7N6q7oTT9hj8gSPgC39RTiA7ffIKmIwE8u22anchuPQzAlkNVDRRcwiGA6t+F31GpWUeeXvz3TBLazQBCkkAvjghvIHPIBbGcn17ZtCmj3PV/dTrlxVB4rpXcpc+SjdAZP699EElYSM9L9d+2Qn0/vyAegVmdQftF8jqwGl9hJpD+eTlspPofFEToJAEEKEvvJ4PKYQTuPKq90IK7vZnkO16l6oDOvdvWHT5w932NLJd71CuIDuAMmqIpWmKEgSyfH5xPNcJXEhTJ1Dqpwoiz/e6DCwg+v8M/Teb9j5uCKLyRQAAAABJRU5ErkJggg==",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\blank.png",
+			"name": "blank",
+			"folder": "block",
+			"namespace": "",
+			"id": "6",
+			"width": 16,
+			"height": 16,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "bc66c9e5-a48e-9605-1589-75b60033e4fb",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/blank.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAB9JREFUOE9jZKAQMFKon2HUAIbRMGAYDQNQPhr4vAAAJpgAEX/anFwAAAAASUVORK5CYII=",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\1989\\blue_layer_1.png",
+			"name": "blue_layer_1",
+			"folder": "",
+			"namespace": "",
+			"id": "7",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "ce6a294d-0f0c-5b8c-06ab-02974cc1091e",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/1989/blue_layer_1.png",
+			"source": "data:image/png;base64,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",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\1989\\blue_layer_2.png",
+			"name": "blue_layer_2",
+			"folder": "",
+			"namespace": "",
+			"id": "8",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "9e499e6a-0b0a-9045-ea5d-788f46f9e624",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/1989/blue_layer_2.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAz5JREFUeF7tV7FOFFEUPSiGBcGNkIBGQwYdTSxoLIy9H2Bs/AJjR2FFwgfYUtjpH/AHFvTGgobCBBZ3QjAKya4ZcF0I6Jh337xZGIMah2RDztlmM28uhz3nnnfuewPQh1qBAWr2Ig8ZgNwEMoAMQK4AOX0lgAxArgA5fSWADECuADl9JYAMQK4AOX0lgAxArgA5fSWADECuADl9JYAMQK4AOX0lgAxArgA5fSWADECuADl9JYAMQK4AOX0lgAxArgA5fSWADECuADl9JYAMQK4AOX0lgAxArgA5fSWADECuADl9JYAMQK4AOX0lgAxArgA5fSWADECuADl9JYAMQK4AOX0lgAxArgA5fSWADECuADl9JYAMQK4AOX0lgAxArgA5fSWADECuADl9JYAMQK4AOX0lgAxArgA5/b4nQPz6XdZYWQMu1RDPTls7GhspcHEQcXQZjdVNYGwCaH9CfP8urHb8BtDdRXzvuq8PNXstwyie85pG0gF+HCG+Xe/VH+57vIr4WHzSdw2reLj/P35uKbOmbaSIxveNS5KO+uYnHf+9slY0y2rD8zHjnFoTMJIOovo3j9+umRlc80/glZ//Bf/5w/5rWMEB/f/xC8uZa8zg1SlrOHY+In4wi6Ov20jWdxDdmUTy5SeiaxfMGK422TpAdHPI1jF85eRaM0U0U+/V5BiG/34VmLxlpjL8gFcFf/5x/zU81waYW8pcxIfG4nDfN7CZ2lhwn7BLMTwGHB32Yn6kDqTbxfgoxkMYBc5Qey2UMc086ah/VxX/5SMZoIIBgfm3GVqbfqfnTbEGtWtw6xgcKna0nQUAbxZnkPwsgO7eyZrurk+MrQOgmwIT0zZe7DmYbX3H1p2BQmL8F/6rpzJAJQMsLGfhsFccAsMsDvP7tFntDnAj9T/P8xJGODRaqpwFvs4AldoPPHuT2e7PZ3c4BNoub9f8zi3P/jDn8zERzgNh19tzqClhGH54F84YVfB1BqhmgOIaWJ/q3QJc/H9P/az/8Bku4sM10Q6K+Vx31zjb0aW1366BeVIUtwyHn277m0VFfF0Dq/UfWGxmeDEzUHw7vONr7vn4+7/Vl2vLf3/W+O7/nePPLz9SSF+jZ5bAAAAAAElFTkSuQmCC",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\1989\\green_layer_1.png",
+			"name": "green_layer_1",
+			"folder": "",
+			"namespace": "",
+			"id": "9",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "0704bb9d-ea75-c63d-42d3-11c033a8303d",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/1989/green_layer_1.png",
+			"source": "data:image/png;base64,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",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\1989\\green_layer_2.png",
+			"name": "green_layer_2",
+			"folder": "",
+			"namespace": "",
+			"id": "10",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "79e7caf1-f7ca-ad1d-7984-46d97536a7bb",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/1989/green_layer_2.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAx1JREFUeF7tVz9rVEEcnPVicpjEkMQgmCAERCtBG0ktWIqNlZ1+Cz+B38JK7C1FsBYbBW0UISCJTUw0JieXv0/mLT/u8SAqbOAVM6+57N6+ucz8Zue3m+BHWoEkzd7kYQOIm8AGsAHEFRCn7wSwAcQVEKfvBLABxBUQp+8EsAHEFRCn7wSwAcQVEKfvBLABxBUQp+8EsAHEFRCn7wSwAcQVEKfvBLABxBUQp+8EsAHEFRCn7wSwAcQVEKfvBLABxBUQp+8EsAHEFRCn7wSwAcQVEKfvBLABxBUQp+8EsAHEFRCn7wSwAcQVEKfvBLABxBUQp+8EsAHEFRCn7wSwAcQVEKfvBLABxBUQp+8EsAHEFRCn7wSwAcQVEKfvBLABxBUQp+8EsAHEFRCn7wSwAcQVEKffeQLce9OrJuaAsXPAYC1XY+46kHrA5ntgcgnoXwB2vwJ7WwDXTl0G9reBndW8PtYMv2eMGMea+RtAdQRsfRitP/yd8Urxn1086lzDEg93/s8/WOtVLBqL/u11VXNZvJPq4rNw/GTRo1hcG+OmcU5aExj8XH+V8S/dTrUZWPwmXnv8P/gvVmyAEgPi0bBXsTD9hVQX/NcX4GAXGG5UmF5O2FmtsHArYeNtVRuDa+dvJmy+y/PjM7mwMTdzLWH702gcGMQ/OwWcv5JNRfzAK8F/efe4801UUoDO/3kmACM+ishoZgFZSLYFPrFLWezjg1HMT8wCg/VR+4j2EK2AhuLfbUyah8Xnd6X4T/tOgBID4uGgV7GXc6dHUVggxjTnz4xnQ3CH0yh8aBYaJM4C7PXNNRwzMfjO/k9gejm3l8Dg+0wGztNAJfjPl2yAIgOwBcRhLw6B0Yujf5/UqznPFPhbP29jxKGRv3Ua+D4DFJUfuP+RCZB3NHdiHAK5S5kC3Lnt3h9ro03EeSB2Pcexpo1B/Pguzgcl+D4DFBogroGTi6NbAIu29yP3esY0Iz2uic2+zpsBn/Zc+xoYSRG3DOIz+vl+Kb6vgYUGeHx4tXoy9jnFJ+Gacxw3v//X+vba9vunjc/fK5Sg09f/AP+YGl8Z5k64AAAAAElFTkSuQmCC",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\1989\\orange_layer_1.png",
+			"name": "orange_layer_1",
+			"folder": "",
+			"namespace": "",
+			"id": "11",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "f2d2f491-f8be-f14f-23da-19a8c38c3891",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/1989/orange_layer_1.png",
+			"source": "data:image/png;base64,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",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\1989\\orange_layer_2.png",
+			"name": "orange_layer_2",
+			"folder": "",
+			"namespace": "",
+			"id": "12",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "5af647be-b27d-b75b-54bf-98eae9b20615",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/1989/orange_layer_2.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAzNJREFUeF7tXbFuE0EUnCOygVgBGQzJ6dxZrqAyX0RDS49cpkbiC6j5GVdQRXR3MoaARSw7ka1w6O3dbswhQ8QhnaKZa067fn7xzJud97ZKBD3UDETU6AUeEgC5CCQACYCcAXL4cgAJgJwBcvhyAAmAnAFy+HIACYCcAXL4cgAJgJwBcvhyAAmAnAFy+HIACYCcAXL4cgAJgJwBcvhyAAmAnAFy+HIACYCcAXL4cgAJgJwBcvhyAAmAnAFy+HIACYCcAXL4cgAJgJwBcvhyAAmAnAFy+HIACYCcAXL4cgAJgJwBcvhyAAmAnAFy+HIACYCcAXL4cgAJgJwBcvhyAAmAnAFy+HIACYCcAXL4cgAJgJwBcvhyAAmAnAFy+HIACYCcAXL4cgAJgJwBcviNO0D6HPmjO0C73UJ2tnHlSOIYuLWHLEuR3GsBB4dYf03x5QJwsQ/7wGqObL4s4ssYLGYuR1iXMUnSB35cIptOQ/x6vXH56uaPXi8b57COhhv/8fnLVu6KFseYfCwKNBr2i+InxduK7otlsX69LZxdMT6HvScnaZF/EDsxWPG381XX18nff3uz//Na8wIY93MrzOE+XMEXn1OYEcxWwPA+cPIdGCUdTLKlE4bFjo5amHzauH3sd3/Ze/oAeP8NIcbnsPzOKB4XorL8IV+N/M/eSQB1HAjmAGbxvrBmzVZAK6S1BXv8KW3f7QCX6yub7/Swnk9D+wjtwbcCs/7FDNWcTjzD4rO6+aPjtPFDVKcAjf/4/FWcL06nxUkvi+IKNIhh+7f3rk60CcUeE4sTSDkLrM+X4dS7mNW8cIyjFhbnGxz0ivZiay82cwbbNwF5x/iX/NGbTeMc3mwBjPu5H/bCEFj25tC/d/RqN8B1en/s59Ucfmh0c0c5Y+yaBa6TXzNAHfkBOHuB3E6/791+CHQtYVCe3Erv97G+Tfh5wJ96W4dZoJLD8vvPwoxRI79mgJoCCNfA7tYtYBADy9Oi13c7MIv310R3pSv7ut0M3Imu7P12DSydItwyBoX1u5tFzfy6BtYUQH78JI/GHyL/tnTbe7be/vxv8dXY6vf/d377ezUpaPTrPwE0VUlf6tk+3QAAAABJRU5ErkJggg==",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\1989\\pink_layer_1.png",
+			"name": "pink_layer_1",
+			"folder": "",
+			"namespace": "",
+			"id": "13",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "6453570c-a56d-fe59-03ac-1d443b601141",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/1989/pink_layer_1.png",
+			"source": "data:image/png;base64,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",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\1989\\pink_layer_2.png",
+			"name": "pink_layer_2",
+			"folder": "",
+			"namespace": "",
+			"id": "14",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "5581bfd5-5181-49ad-3ade-512e78b40c12",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/1989/pink_layer_2.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAA0FJREFUeF7tV01rE1EUvdOYaFNNM8kUq6IQiBXcC135f9y5EVy4kgqCP8C9vybgXlALAcVaMV+NtmmbTp7c197pdKB+PSHIObOZvJmbm5xzzzv3vkh4QTMQQaMneKEAwEVAAVAA4AyAw6cDUADgDIDDpwNQAOAMgMOnA1AA4AyAw6cDUADgDIDDpwNQAOAMgMOnA1AA4AyAw6cDUADgDIDDpwNQAOAMgMOnA1AA4AyAw6cDUADgDIDDpwNQAOAMgMOnA1AA4AyAw6cDUADgDIDDpwNQAOAMgMOnA1AA4AyAw6cDUADgDIDDpwNQAOAMgMOnA1AA4AyAw6cDUADgDIDDpwNQAOAMgMOnA1AA4AyAw6cDUADgDIDDpwNQAOAMgMOnA1AA4AyAw6cDUADgDIDDn7sDvL3wwDWjqixJWT64HV+OVnxNpLQg3d4nuRUtS6l5Wcb9ofTdnmhsrRmLDCfSTQc+3mLS/nefw9YW00puiKQz6Q4/Z/G7MvX5QvNXDp7NncMQDc/9z0/Kj50WTYveGW56LOvJmi++Fk7vWnQrlsbaOi+c82Ish947vXfH+eO2F4MWP5+vuP6d/HeOXs6dw/9aAIerG04Lc1WWfMF7/Z58cwfyRXalHTVk0w1kvXRTOulHLwyNvRddl9duyz+XePHMs7vRirxxX7MYy6H5r0QXJWkmXlSa3/KF5L9/9IoCCFGgOoBavBVWrVkLqIXUtqCX7dLawiVJZ+mpzderMh7tZO3D2oO1AhWUfi7m9OJJ1vy70PyV7ScUQIgADleeut5ocLzTT4riCxS3RZ9XpJTtaBWKXioWFYjNAuPZ/tmY4cQ7hjrFUPYlqTd8e9G1iU2dQZ+rgMwx/ib/4vQ5BRAkgNUNZ8OeDYHWi61/n9er/QBXr/60nxdz2NDo546TGSMkP2eAkOqLyFb5odPdb73bhkDd5eoCunOLvd9irU3YPGC7XtcWU8yh+e1dNmMUZos/yc8ZIFAAdgys1ZdPTwFxW9LRnu/1rVJD1OLtmJjv63oy8MfGXK/PH+3sGGhOkZ0y4ra3fo0Nzc9jYKAAprdfuPL7R5HdNV3+ma7z738VX4wtfv9f59ffC6Rgrl//Aem/e1+uo717AAAAAElFTkSuQmCC",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\lover\\orange_boots_layer_1.png",
+			"name": "orange_boots_layer_1.png",
+			"folder": "",
+			"namespace": "",
+			"id": "15",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "546c729f-2fc4-9aae-d84a-78cae1fd1335",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/lover/orange_boots_layer_1.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAABRJJREFUeF7tnM1vG0UYxp+Z2Q+v7Xx/uDRtEqVBqYBLQ1EpEUhVrwiu/AkcUMWdSxBckJBQOfEXcOFKOZFDVQoCqSEIKjWK+kEqNY3SNk1i73q9uzNoI9m1rKkcsYo28bw5vnrfmX2f5+fXY2knDPRntALM6O6peRAAhkNAABAAhitgePs0AQgAwxUwvH2aAASA4QoY3j5NAALAcAUMb58mAAFguAKGt08TgAAwXAHD26cJQAAYroDh7dMEIAAMV8Dw9mkCEACGK2B4+zQBCADDFTC8fZoABIDhChjePk0AAsBwBQxvnyYAAWC4Aoa3TxOAADBcAcPbpwlAAGRTYLE8p0LuIIzriGUEyThs7iCJG+i3Bb6srhFk2SQ+1OrM5nxSelXtRgGGuIDFBRQT6LNLiOMGYlnHV/69zHscqgKGL57ZnC+GzqlHdR8VAegmwTe1O5n3MNyjQ20/szlfD59TdwMfgkvoJsHnz1cy73GoChi+eGZzPi7NKTtRGPdKSCeBLaP97/6IcQRJgqu1Nc4YU4brfGTbzwzAlb7XlYpCTBX7kE6CYSH2v/sltxEmEb4N6AxwZN0Hsv+PoCvujEo/8U8URzoJTnslrAfPMeL2YTPcw3f1+5khO8oCHvdny2zOZ+XXVPqJD4SHdBII1cCYW4ZruXjYCHC1SofAowxJZgCOcnP0bN0VIAC6a9TTGQRAT9vbvTkCoLtGPZ1BAPS0vd2bIwC6a9TTGQRAT9vbvTkCoLtGPZ1xYAB+fadfTVdcrG6GgGfh0tKzA9emCnbWX3/3ilhcXJQ9re4xaO5AJm6856g9m6HmS9QbCrJYhOdamP/5YBB01scc8ByO8zcbB9r/GOh4bB+RvcycCQE0Ta9x4PEzidMeg2szSAFUBgXWN2M0zWzPTyFpj99NlLZ+Y0cSBDmjw35ZsJXO3Ps7Scu0mZM2/nmcoNBQODEABIJhJ1DwgBYM7fntkKTxuSFLWz85IjDxU52mQI4QsK33PaUzd3bshWlvTVu4sZFg0mNoNBIkNkc1lKi4rAVDe347JGl8iENbrxjDxd8jAiBPAOIPPKUz9/wJu2Xag0Sh4CvMn7Jw61GE6VELq1sxTjpowdCe3w5JGr/+NNHWlyzg7T9iAiBPAJYWHKUzFx5vmbZSlZC7Ek6kMFvhKHsCy9sJIl+2YGjPb4ckjRcdpq2v1iQuLxMAOfoP9tslV+nMldYL06Yn9WeAs/2sBUN7fjskaXy2xLVnAO4wXLhBvwRyBYDOAHnKn//ejM4A+ZuQ5xOwpTcvqEIgMf9KP25tPsH08CBWnz4HCgU04yt+CLkXwInrmB0dRLlQwPJODVEQaPM71yk6tra+6ge4fPsvOgTmSAC7efZDJf0anMTHmYFRlJ0S/qztQgoLzfhEsR9Vq4haWEU9DhBzAU8UMeNa2vzOdaaSUFufcIaLa9cIgDwBWB/+SO3xEmrxLsLER8wECqKMCSbRjPtQ2Ai3MWk5cLgLyRxU3DE89B9o8zvXuSdjbf1GYxsXt78nAPIE4NrAgkpf3z5lWXCZvf8+/5gziH8b2/uvdafxqeIE7vg7cGWIccdCnQnsxhE8SG1+5zqz7rC2/lRhBG9s/UgA5AnAD5UFdd+vwpERhh2BkHHU4hgT3iCa8bm+Ifzt1zC+f+nDh+QOgqSBIWFp8zvXKTNo6xU4Pt29TQDkCUDzbl/njZ5Jb0B70+f/xs94Rbo5lKPRL9v6P3AzVm4u4T+VAAAAAElFTkSuQmCC",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\Alfie\\MultiMC\\instances\\1.20.1 wiht only optifine\\.minecraft\\resourcepacks\\eras-tour-resourcepack\\assets\\minecraft\\textures\\block\\outfits\\lover\\sun_sinks_layer_1.png",
+			"name": "sun_sinks_layer_1.png",
+			"folder": "",
+			"namespace": "",
+			"id": "16",
+			"width": 128,
+			"height": 64,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "6c4f4989-fa6e-f342-46d6-dc982b19b35b",
+			"relative_path": "../../../../MultiMC/instances/1.20.1 wiht only optifine/.minecraft/resourcepacks/eras-tour-resourcepack/assets/minecraft/textures/block/outfits/lover/sun_sinks_layer_1.png",
+			"source": "data:image/png;base64,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",
+			"mode": "bitmap"
+		}
+	],
+	"animations": [
+		{
+			"uuid": "eb142828-8ded-9fd5-0fdf-0794970b9379",
+			"name": "spin",
+			"loop": "loop",
+			"override": false,
+			"length": 6,
+			"snapping": 20,
+			"selected": false,
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "",
+			"affected_bones": [],
+			"affected_bones_is_a_whitelist": false,
+			"animators": {
+				"7c7f626f-3140-cd64-e59b-0c4f3373dd7b": {
+					"name": "outfit",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "e8de81f0-9a15-59fe-df0c-53451013e71f",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear"
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": 0,
+									"y": "90\n\n",
+									"z": 0
+								}
+							],
+							"uuid": "664db65a-efdf-a75f-3e38-67dbf1fcec68",
+							"time": 1.5,
+							"color": -1,
+							"interpolation": "linear"
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": 0,
+									"y": "180\n\n",
+									"z": 0
+								}
+							],
+							"uuid": "067d5e49-3d8c-396b-2957-6f243fb9b24d",
+							"time": 3,
+							"color": -1,
+							"interpolation": "linear"
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": 0,
+									"y": "270",
+									"z": 0
+								}
+							],
+							"uuid": "e28c27f4-64be-bab7-1949-a49555d182d0",
+							"time": 4.5,
+							"color": -1,
+							"interpolation": "linear"
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": 0,
+									"y": "360\n",
+									"z": 0
+								}
+							],
+							"uuid": "bc5f355c-bba4-cbbf-2318-6ae9ed60d848",
+							"time": 6,
+							"color": -1,
+							"interpolation": "linear"
+						}
+					]
+				}
+			}
+		}
+	]
+}
